@@ -42,6 +42,7 @@ Devise.setup do |config|
   config.encryptor = :bcrypt
 
   # Setup a pepper to generate the encrypted password.
+  # NEWAPP_FIXME need to regenerate this
   config.pepper = "9397c854de9122deb8ac20233c001921fae8a169104f94c9dd3152720ec958e9261c08644f1bed683f6ff59b7722ce6b8cb14aef4cfa3cbfab579fd153c822a6"
 
   # ==> Configuration for :confirmable
