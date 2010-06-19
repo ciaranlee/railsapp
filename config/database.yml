@@ -6,10 +6,13 @@ development:
   username: ciaran
   password:
 
-test:
+test: &test
   adapter: postgresql
   encoding: unicode
   database: surf_test
   pool: 5
   username: ciaran
   password:
+
+cucumber:
+  <<: *test

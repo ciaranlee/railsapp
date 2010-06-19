@@ -7,7 +7,14 @@ gem "rspec-rails", ">= 2.0.0.beta.8"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'capybara'
 
+gem 'database_cleaner'
+gem 'cucumber-rails'
+gem 'cucumber'
+gem 'rspec-rails'
+gem 'spork'
+gem 'launchy'    # So you can do Then show me the page
 # Use unicorn as the web server
 # gem 'unicorn'
 
