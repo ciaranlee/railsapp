@@ -1,0 +1,11 @@
+# refer to http://www.yaml.org/spec/1.1/ for clarification on YAML collections
+app:
+  path: public/stylesheets
+  custom_layout:
+    column_count: 24
+    column_width: 30
+    gutter_width: 10
+  plugins:
+    - buttons
+  semantic_classes:
+    "header, div#main, nav, footer": ".container"

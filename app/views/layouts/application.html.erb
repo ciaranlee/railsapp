@@ -4,6 +4,9 @@
   <title>Surf</title>
   <%= javascript_include_tag "jquery-1.4.2.min.js", "rails" %>
   <%= csrf_meta_tag %>
+  <%= stylesheet_link_tag "screen", :media => "screen, projection" %>
+  <%= stylesheet_link_tag "print", :media => "print" %>
+  <!--[if lt IE 8]><%= stylesheet_link_tag "ie", :media => "screen, projection" %><![endif]-->
 </head>
 <body>
 
@@ -26,7 +29,9 @@
     </div>
   <% end %>
 
-  <%= yield %>
+  <div id="main">
+    <%= yield %>
+  </div>
 
   <footer>
     footer
