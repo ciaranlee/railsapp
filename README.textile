@@ -1,0 +1,8 @@
+h1. My rails app template
+
+This is a fresh rails 3 app with some things I like:
+
+* devise for authentication
+* rspec
+* cucumber
+* blueprint CSS
