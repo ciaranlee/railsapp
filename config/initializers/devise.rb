@@ -41,9 +41,8 @@ Devise.setup do |config|
   # (then you should set stretches to 10, and copy REST_AUTH_SITE_KEY to pepper)
   config.encryptor = :bcrypt
 
-  # Setup a pepper to generate the encrypted password.
-  # NEWAPP_FIXME need to regenerate this
-  config.pepper = "9397c854de9122deb8ac20233c001921fae8a169104f94c9dd3152720ec958e9261c08644f1bed683f6ff59b7722ce6b8cb14aef4cfa3cbfab579fd153c822a6"
+  # Setup a pepper to generate the encrypted password - not essential, generate with 'rake secret'
+  # config.pepper = "9397c854de9122deb8ac20233c001921fae8a169104f94c9dd3152720ec958e9261c08644f1bed683f6ff59b7722ce6b8cb14aef4cfa3cbfab579fd153c822a6"
 
   # ==> Configuration for :confirmable
   # The time you want to give your user to confirm his account. During this time
