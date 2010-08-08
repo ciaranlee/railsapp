@@ -1,20 +1,19 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0.beta4'
-gem "devise", '1.1.rc2'
-gem "rspec-rails", ">= 2.0.0.beta.8"
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'rails', '3.0.0.rc'
+gem "devise", :git => "http://github.com/plataformatec/devise.git"
 gem 'pg'
-gem 'capybara'
 
-gem 'database_cleaner'
-gem 'cucumber-rails'
-gem 'cucumber'
-gem 'rspec-rails'
-gem 'spork'
-gem 'launchy'    # So you can do Then show me the page
+group :test do
+  gem "rspec-rails", ">= 2.0.0.beta.8"
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber'
+  gem 'spork'
+  gem 'launchy'    # So you can do Then show me the page
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
