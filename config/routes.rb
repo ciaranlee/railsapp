@@ -1,4 +1,4 @@
-Surf::Application.routes.draw do |map|
+Railsapp::Application.routes.draw do |map|
   get "home/index"
 
   devise_for :users
